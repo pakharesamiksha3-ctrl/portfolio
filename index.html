@@ -1,2 +1,180 @@
-<!-- update -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samiksha Pakhare | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .fade-in {
+        animation: fadeIn 1.2s ease-out forwards;
+      }
+      .slide-up {
+        animation: slideUp 1s ease-out forwards;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      @keyframes slideUp {
+        from {
+          opacity: 0;
+          transform: translateY(40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-indigo-100 via-white to-blue-100 p-6 font-sans">
+    <div class="max-w-5xl mx-auto space-y-10">
+      <!-- HEADER -->
+      <div class="text-center space-y-4 fade-in">
+        <img
+          src="./profile1.jpg"
+          alt="Samiksha Pakhare"
+          class="w-36 h-36 object-cover mx-auto rounded-full shadow-2xl border-4 border-white hover:scale-105 transition duration-300"
+        />
+        <h1 class="text-4xl font-bold text-indigo-700">Samiksha D. Pakhare</h1>
+        <p class="text-lg font-medium">MCA (Data Science) — Pursuing</p>
+        <p class="text-sm text-gray-600">B.Sc. Computer Science | Data Science Aspirant</p>
+        <span class="inline-block bg-green-100 text-green-700 px-4 py-1 rounded-full text-sm font-semibold shadow">
+          💼 Currently Working at EXL Pvt. Ltd.
+        </span>
+
+        <!-- BUTTONS -->
+        <div class="flex justify-center gap-4 mt-4">
+          <a
+            href="./resume.pdf"
+
+            download
+            class="bg-indigo-600 text-white px-6 py-2 rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition"
+          >
+            📄 Download Resume
+          </a>
+          <a
+            href="https://www.linkedin.com/in/samiksha-pakhare-b08889260"
+            target="_blank"
+            class="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:bg-blue-700 transition"
+          >
+            <!-- LinkedIn Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="white" viewBox="0 0 24 24">
+              <path
+                d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.24 8h4.48v15H.24V8zM8.16 8h4.3v2.05h.06c.6-1.14 2.07-2.35 4.26-2.35 4.56 0 5.4 3 5.4 6.9V23h-4.48v-7.3c0-1.74-.03-3.98-2.42-3.98-2.42 0-2.8 1.9-2.8 3.86V23H8.16V8z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- ABOUT -->
+      <div class="bg-white rounded-2xl shadow-xl p-6 slide-up">
+        <h2 class="text-2xl font-semibold text-indigo-600 mb-3">👩‍💻 About Me</h2>
+        <p class="text-gray-700">
+          Motivated Computer Science graduate pursuing MCA in Data Science and currently working at
+          <b>EXL Pvt. Ltd.</b> as an Insurance Process Associate. I bring strong analytical thinking, accuracy in
+          documentation, and teamwork skills. Passionate about building a career in Data Science, Analytics, and
+          IT-driven roles.
+        </p>
+      </div>
+
+      <!-- SKILLS -->
+      <div class="bg-white rounded-2xl shadow-xl p-6 slide-up">
+        <h2 class="text-2xl font-semibold text-indigo-600 mb-4">🚀 Skills</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold text-lg mb-2">💻 Technical Skills</h3>
+            <ul class="list-disc ml-5 space-y-1 text-gray-700">
+              <li>HTML</li>
+		<li>MySQL</li>
+		<li>Python</li>
+              <li>MS Word, Excel, PowerPoint</li>
+              <li>MS-CIT Certified</li>
+              <li>English Typing (GCC-TBC)</li>
+              <li>Internet & Documentation</li>
+              <li>Basic Computer Operations</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg mb-2">🤝 Soft Skills</h3>
+            <ul class="list-disc ml-5 space-y-1 text-gray-700">
+              <li>Quick Learner</li>
+              <li>Team Work</li>
+              <li>Time Management</li>
+              <li>Active Listening</li>
+              <li>Problem Solving</li>
+              <li>Self Motivated</li>
+              <li>Attention to Detail</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="bg-white rounded-2xl shadow-xl p-8 slide-up">
+        <h2 class="text-3xl font-bold text-indigo-600 mb-6 text-center">🎓 Education Journey</h2>
+        <div class="border-l-4 border-indigo-500 space-y-8 pl-6">
+          <!-- MCA -->
+          <div>
+            <h3 class="text-xl font-semibold">MCA (Data Science) — Pursuing</h3>
+            <p class="text-gray-600">Master of Computer Applications with Data Science Specialization</p>
+            <span class="inline-block mt-2 bg-indigo-100 text-indigo-700 px-3 py-1 rounded-full text-sm">Current</span>
+          </div>
+
+          <!-- BSc -->
+          <div>
+            <h3 class="text-xl font-semibold">B.Sc. Computer Science — 2024</h3>
+            <p class="text-gray-600">Jagadamba Mahavidyalaya, Amravati</p>
+            <span class="inline-block mt-2 bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm"
+              >77.48%</span
+            >
+          </div>
+
+          <!-- HSC -->
+          <div>
+            <h3 class="text-xl font-semibold">Higher Secondary Certificate (HSC) — 2019</h3>
+            <span class="inline-block mt-2 bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm"
+              >62.93%</span
+            >
+          </div>
+
+          <!-- SSC -->
+          <div>
+            <h3 class="text-xl font-semibold">Secondary School Certificate (SSC) — 2017</h3>
+            <span class="inline-block mt-2 bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm"
+              >73.20%</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div class="bg-white rounded-2xl shadow-xl p-6 slide-up">
+        <h2 class="text-2xl font-semibold text-indigo-600 mb-3">🏢 Work Experience</h2>
+        <p class="font-semibold text-lg">Associate — EXL Pvt. Ltd.</p>
+        <p class="text-gray-600 mb-2">Insurance Process | Currently Working | 1 Year Experience</p>
+        <ul class="list-disc ml-5 space-y-1 text-gray-700">
+          <li>Handled insurance process documentation</li>
+          <li>Maintained high data accuracy</li>
+          <li>Verified records and policy details</li>
+          <li>Worked with deadlines and team targets</li>
+          <li>Performed quality checks and data validation</li>
+        </ul>
+      </div>
+
+      <!-- CONTACT -->
+      <div class="bg-indigo-600 text-white rounded-2xl shadow-xl p-6 slide-up text-center">
+        <h2 class="text-2xl font-semibold mb-3">📞 Contact</h2>
+        <p>Email: _pakharesamiksha3@gmail.com_</p>
+        <p>Phone: +91-9022766294</p>
+      </div>
+    </div>
+  </body>
+</html>
 
